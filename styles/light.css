@@ -1,12 +1,74 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --tittle-header-color: #ffc2e6;
+    --text-color: #353430;
+    --tittle-section-color: #353430;
+    --accent: #ff8dcb;
+  }
+
+  .page {
+    background-image: url("../images/cover-image-light.png");
+  }
+
+  .design__element {
+    visibility: hidden;
+  }
+
+  .angle::before {
+    border-top: 1px solid var(--text-color);
+    border-right: 1px solid var(--text-color);
+  }
+
+  .angle::after {
+    border-bottom: 1px solid var(--text-color);
+    border-left: 1px solid var(--text-color);
+  }
+
+  .header__theme-menu-button {
+    color: var(--text-color);
+  }
+
+  .header__theme-menu-button_active {
+    border: 1px solid var(--text-color);
+  }
+
+  .header__theme-menu-button:hover {
+    outline: 1px solid var(--text-color);
+  }
+}
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-color: #fff1f7;
+  --tittle-header-color: #ffc2e6;
+  --text-color: #353430;
+  --tittle-section-color: #353430;
+  --accent: #ff8dcb;
+  background-image: url("../images/cover-image-light.png");
+}
+
+.page.theme_light .design__element {
+  visibility: hidden;
+}
+
+.page.theme_light .angle::before {
+  border-top: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
+}
+
+.page.theme_light .angle::after {
+  border-bottom: 1px solid var(--text-color);
+  border-left: 1px solid var(--text-color);
+}
+
+.page.theme_light .header__theme-menu-button {
+  color: var(--text-color);
+}
+
+.page.theme_light .header__theme-menu-button_active {
+  border: 1px solid var(--text-color);
+}
+
+.page.theme_light .header__theme-menu-button:hover {
+  outline: 1px solid var(--text-color);
 }
