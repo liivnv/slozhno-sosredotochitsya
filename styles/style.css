@@ -17,6 +17,7 @@
   grid-template-rows: 1fr auto 1fr;
   height: 100vh;
   padding: clamp(10px, 2.6vi, 20px) 0;
+  min-height: 668px; 
 }
 
 .design__element {
@@ -327,6 +328,7 @@ button:disabled {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-height: 668px;
 }
 
 .footer .main-title {
