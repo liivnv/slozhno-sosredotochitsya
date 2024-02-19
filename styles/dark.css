@@ -1,34 +1,17 @@
 .page.theme_dark {
   --bg-color: #000028;
   --tittle-header-color: #db00ff;
+  --decorated-title-color: #000028;
   --text-color: #f1b2ce;
-  --tittle-section-color: #000028;
+  --tittle-section-color: #ff0070;
   --accent: #ff0070;
-  background-image: url("../images/cover-image-dark.png");
+  --menu-header-color: #ff0070;
+  --link-effects: #ff0070;
+  --main-font: "IBM Plex mono";
+  --bg-image: url("../images/cover-image-dark.png");
+  --border-color: rgba(255, 0, 112, 0.4);
 }
 
 .page.theme_dark .design__element {
   visibility: visible;
-}
-
-.page.theme_dark .angle::before {
-  border-top: 1px solid var(--accent);
-  border-right: 1px solid var(--accent);
-}
-
-.page.theme_dark .angle::after {
-  border-bottom: 1px solid var(--accent);
-  border-left: 1px solid var(--accent);
-}
-
-.page.theme_dark .header__theme-menu-button {
-  color: var(--accent);
-}
-
-.page.theme_dark .header__theme-menu-button_active {
-  border: 1px solid var(--accent);
-}
-
-.page.theme_dark .header__theme-menu-button:hover {
-  outline: 1px solid var(--accent);
 }

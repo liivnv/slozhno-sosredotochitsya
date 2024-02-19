@@ -1,8 +1,13 @@
 :root {
   --bg-color: #000028;
   --tittle-header-color: #db00ff;
+  --decorated-title-color: #000028; 
   --text-color: #f1b2ce;
-  --tittle-section-color: #000028;
+  --tittle-section-color: #ff0070;
   --accent: #ff0070;
+  --menu-header-color: #ff0070;
+  --link-effects: #FF0070;
   --main-font: "IBM Plex mono";
+  --bg-image: url('../images/cover-image-dark.png');
+  --border-color: rgba(255, 0, 112, 0.4);
 }
